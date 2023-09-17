@@ -43,7 +43,6 @@ body {
 .sign_up_info button{
     display: flex;
     background-color: blue;
-    color:
     flex: 0;
     width: 64px;
 }
