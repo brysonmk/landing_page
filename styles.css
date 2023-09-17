@@ -1,0 +1,95 @@
+* {
+    border: 2px solid red;
+}
+
+html, body{
+    height: 100%;
+    display: flex; 
+}
+body {
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: indigo;
+}
+.header_logo {
+    font-weight: 900;
+    color: orange;
+}
+.left_links {
+    display: flex;
+    gap: 16px;
+}
+.header a{
+    color: white;
+}
+
+.section_1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: indigo;
+}
+.sign_up_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.sign_up_info button{
+    display: flex;
+    background-color: blue;
+    color:
+    flex: 0;
+    width: 64px;
+}
+h1,p{
+    color: white;
+}
+
+.section_2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.images_subtext{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image_subtext{
+    display: flex;
+    flex: 0 0 64px;
+    flex-basis: 150px;
+    flex-direction: column;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+}
+.quote_creator{
+    display: flex;
+    flex: 1;
+    justify-content: end;   
+}
+
+.call_to_action{
+    display: flex;
+    justify-content: center;
+}
+.call_to_action .text{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
